@@ -9,7 +9,16 @@
     <link href="style.css" rel="stylesheet">
     <script src="app.js"></script>
 </head>
-
+<script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.has('code')) {
+    const code = params.get('code');
+    alert("Spotify authorization code:\n" + code);
+    console.log("Spotify authorization code:", code);
+  } else {
+    console.log("Geen code in URL");
+  }
+</script>
 <body onload="onPageLoad()">
     <div class="container">
 
