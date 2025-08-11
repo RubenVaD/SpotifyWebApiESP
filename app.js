@@ -1,4 +1,4 @@
-var redirect_uri = "https://RubenVaD.github.io/SpotifyWebApiESP/"; // change this your value
+var redirect_uri = "https://rubenvad.github.io/SpotifyWebApiESP/"; // change this your value
 //var redirect_uri = "http://127.0.0.1:5500/index.html";
  
 
